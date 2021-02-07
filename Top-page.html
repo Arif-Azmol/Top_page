@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script type="text/javascript" charset="utf-8" src="jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="Top-page.css" title="" type="" />
+  </head>
+  <body>
+    <input type="checkbox" id="check"/>
+    <div class="top-ber">
+      <label for="check">
+        <i class="fas fa-bars" id="top-btn"></i>
+      </label>
+      <div class="left">
+        Web <span>Arif</span>
+      </div>
+      <div class="right">
+        <a href="#">sign in</a>
+      </div>
+    </div>
+    <div class="mobile-nav">
+      <div class="nav">
+        <div class="nav-img-ber">
+          <div class="mobile-img">
+            <img src="Azmol-s.jpg"/>
+          </div>
+          <div class="phn-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+      <div class="nav-items">
+        <a href="#"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+        <a href="#"><i class="fas fa-cogs"></i><span>Components</span></a>
+        <a href="#"><i class="fas fa-table"></i><span>Tables</span></a>
+        <a href="#"><i class="fas fa-th"></i><span>Forms</span></a>
+        <a href="#"><i class="fas fa-info-circle"></i><span>About</span></a>
+        <a href="#"><i class="fas fa-sliders-h"></i><span>Settings</span></a>
+      </div>
+    </div>
+    <div class="side-ber">
+      <center>
+        <img class="img" src="Azmol-s.jpg"/>
+        <h2>Arif Azmol</h2>
+      </center>
+      <div class="ber-items">
+        <a href="#"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+        <a href="#"><i class="fas fa-cogs"></i><span>Components</span></a>
+        <a href="#"><i class="fas fa-table"></i><span>Tables</span></a>
+        <a href="#"><i class="fas fa-th"></i><span>Forms</span></a>
+        <a href="#"><i class="fas fa-info-circle"></i><span>About</span></a>
+        <a href="#"><i class="fas fa-sliders-h"></i><span>Settings</span></a>
+      </div>
+    </div>
+    <div class="content">
+      <h2>Arif Azmol</h2>
+      <h4>Web Developer</h4>
+      <p>Hey! I am Arif Azmol. A professional web developer who will make your company's website like your need for you. I have 4 years of experience here. My clients are satisfied working with me. </p>
+    </div>
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function(){
+        $(".phn-btn").click(function(){
+          $(".nav-items").toggleClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
